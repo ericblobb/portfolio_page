@@ -30,12 +30,7 @@
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
-}
-
-#nav ul {
-    position: relative;
-    top: 50%;
-    transform: translateY(50%);
+    height: 60px;
 }
 
 #nav li {
@@ -77,4 +72,10 @@
 #copyright p {
     margin-top: 10px;
     margin-bottom: 0;
+}
+
+@media (min-width: 750px) {
+    #nav li {
+        font-size: 150%;
+    }
 }
